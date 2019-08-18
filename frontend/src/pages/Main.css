@@ -1,0 +1,117 @@
+.main-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.main-container ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.main-container ul li img {
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.main-container ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container ul li footer {
+  flex: 1;
+  background: #6f329a;
+  border: 1px solid #592380;
+  padding: 15px 20px;
+  text-align: left;
+  border-radius: 0 0 5px 5px;
+}
+
+.main-container ul li footer strong {
+  font-size: 16px;
+  color: #fcfcfc;
+}
+
+.main-container ul li footer p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #e9e9e9;
+  margin-top: 5px;
+}
+
+.main-container ul li .buttons {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.main-container ul li .buttons button {
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 0;
+  border-radius: 4px;
+  background: #e9a22b;
+  cursor: pointer;
+}
+
+.main-container ul li .buttons button:hover img {
+  transform: translateY(-3px);
+  transition: all .2s;
+}
+
+.main-container .empty {
+  font-size:32px;
+  color: #bdfa4c;
+  font-weight: bold;
+  margin-top: 300px;
+}
+
+.match-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.match-container .avatar {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.match-container strong {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.main-container p {
+  color: #ffffffcc;
+  margin-top: 10px;
+  font-size: 20px;
+  max-width: 400px;
+  line-height: 30px;
+}
+
+.main-container button {
+  color: #ffffffe0;
+  border: 0;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 18px;
+}

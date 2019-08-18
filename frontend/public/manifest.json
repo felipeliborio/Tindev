@@ -1,0 +1,15 @@
+{
+  "short_name": "Tindev",
+  "name": "Tindev - Rede social para desenvolvedores",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#7744bb",
+  "background_color": "#38184b"
+}
