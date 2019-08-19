@@ -58,4 +58,4 @@ With a terminal window opened in ./mobile:
 - The server is setted to "192.168.0.100:3333", to change it edit this address in "./pages/Main.js" and "./services/api.js".
 
 
-_Look for any other dependencies you might need inside the package.json files.
+__Look for any other dependencies you might need inside the package.json files.__
