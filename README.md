@@ -37,6 +37,8 @@ Tinder like SNS made with Node.js as backend, React as frontend and React Native
 
 ## Running
 
+You are going to need Node.js, Java and the Android SDK to run it on Android, to run it on iOS you will need a Mac.
+
 ### Backend
 With a terminal window opened in ./backend:
 - Install Nodemon (npm install -g nodemon)
