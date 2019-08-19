@@ -23,15 +23,15 @@ Tinder like SNS made with Node.js as backend, React as frontend and React Native
      align="center" />
 
 ## Mobile interface
-<img src="./media/screenshots/web/tindev_mobile_login.png"
+<img src="./media/screenshots/mobile/tindev_mobile_login.png"
      alt="Login"
-     height="450px" /> <img src="./media/screenshots/web/tindev_mobile_users.png"
+     height="450px" /> <img src="./media/screenshots/mobile/tindev_mobile_users.png"
      alt="Browsing users"
      height="450px" />
 
-<img src="./media/screenshots/web/tindev_mobile_match.png"
+<img src="./media/screenshots/mobile/tindev_mobile_match.png"
      alt="Match"
-     height="450px" /> <img src="./media/screenshots/web/tindev_mobile_empty.png"
+     height="450px" /> <img src="./media/screenshots/mobile/tindev_mobile_empty.png"
      alt="Empty"
      height="450px" />
 
